@@ -1,0 +1,570 @@
+/* source-sans-3-200 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./fonts/source-sans-3-v9-latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/source-sans-3-v9-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/source-sans-3-v9-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/source-sans-3-v9-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/source-sans-3-v9-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/source-sans-3-v9-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/source-sans-3-v9-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/source-sans-3-v9-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --light: #f8f9fa;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl {
+    margin: 0;
+}
+
+.spacer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* -----------------------------------------------jquery css------------------------------------------------ */
+
+.sidebar.side-close,
+.brand-link.side-close {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* .layout-fixed .wrapper .sidebar {
+    height: calc(100vh - (3.5rem + 1px));
+} */
+
+.main {
+    transition: .5s;
+    margin-left: 0;
+}
+
+.menu_open {
+    margin-left: 250px;
+}
+
+
+/*---------------------------------------------------header--------------------------------------------------- */
+
+.top-header {
+    border-bottom: 1px solid #dee2e6;
+    z-index: 1034;
+}
+
+.nav-item .nav-link {
+    padding: 0px 16px;
+    color: var(--gray);
+}
+
+.nav-item {
+    position: relative;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.22em 0.4em !important;
+    font-size: 75% !important;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.comment {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.bell {
+    color: #1f2d3d;
+    background-color: #ffc107;
+}
+
+.nav-item span {
+    font-size: .6rem !important;
+    font-weight: 300;
+    padding: 2px 4px !important;
+    position: absolute;
+    right: 6px;
+    top: 2px !important;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--gray-dark);
+}
+
+/* --------------------------------------------Sidebar---------------------------------------------- */
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    overflow-y: hidden;
+    z-index: 1038;
+    display: block;
+    transition: .5s;
+}
+
+.layout-fixed .sidebar {
+    bottom: 0;
+    float: none;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+
+.elevation-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22) !important;
+    background-color: #343a40;
+}
+
+.sidebar-dark {
+    background-color: #343a40;
+    position: absolute;
+    width: 100%;
+    top: 56px;
+}
+
+.brand-link .brand-image {
+    float: left;
+    line-height: .8;
+    margin-left: 0.8rem;
+    margin-right: 0.5rem;
+    margin-top: -3px;
+    max-height: 33px;
+    width: auto;
+}
+
+.elevation-3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23) !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.brand-link {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 0.8125rem 0.5rem;
+    transition: width .3s ease-in-out;
+    white-space: nowrap;
+    position: fixed;
+    width: 240px;
+    background-color: #343a40;
+    top: 0;
+    z-index: 1000;
+    transition: .5s;
+}
+
+.brand-text {
+    color: rgba(255, 255, 255, .8);
+}
+
+.user-panel,
+.user-panel .info {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.user-panel {
+    position: relative;
+}
+
+.user-panel img {
+    height: auto;
+    width: 2.1rem;
+}
+
+.user-panel .info {
+    display: inline-block;
+    padding: 5px 5px 5px 10px;
+}
+
+.info a {
+    color: #c2c7d0;
+}
+
+.arrow-down {
+    position: absolute;
+    right: 8%;
+    top: 12px;
+}
+
+#parentM li a:hover {
+    background-color: rgb(61, 61, 243);
+}
+
+
+/* ---------------------------------------------dashboard-------------------------------------------- */
+
+.main-section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.bg-info,
+.bg-info>a {
+    color: #fff !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.small-box {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.small-box>.inner {
+    padding: 10px;
+}
+
+.small-box h3,
+.small-box p {
+    z-index: 5;
+}
+
+.small-box p {
+    margin-bottom: 1rem;
+}
+
+.small-box h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.small-box .icon {
+    color: rgba(0, 0, 0, .15);
+    z-index: 0;
+}
+
+.small-box .icon>i {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: -20px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear, -webkit-transform .3s linear;
+}
+
+.small-box>.small-box-footer {
+    background-color: rgba(0, 0, 0, .1);
+    color: rgba(255, 255, 255, .8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.bg-success,
+.bg-success>a {
+    color: #fff !important;
+}
+
+.bg-danger,
+.bg-danger>a {
+    color: #fff !important;
+}
+
+.nav-header {
+    font-size: .9rem;
+    padding: 0.5rem 0.75rem;
+    overflow: hidden;
+    text-overflow: clip;
+    background-color: inherit;
+    color: #d0d4db;
+}
+
+
+/* -------------------------------------------scrollbar------------------------------------------- */
+
+.sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #5555;
+    border: 1px solid #555555;
+}
+
+
+/* ------------------------------------------Login-------------------------------------------- */
+
+.error {
+    color: #9b0909;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(#141e30, #243b55);
+    /* background: rgba(0, 0, 0, .7); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 50px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    /* color: #03e9f4; */
+    font-size: 12px;
+}
+
+.eye {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+
+/* --------------------------------------------media query--------------------------------------- */
+
+@media screen and (min-width: 576px) {
+    .float-sm-right {
+        float: right !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    /* .main-section {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .top-header {
+        width: 100%;
+        margin-left: 0;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    .small-box .inner h3 {
+        text-align: center;
+    }
+
+    .small-box .inner p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .small-box .icon i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .top-header .navbar .nav-item .nav-link {
+        display: none;
+    }
+
+    .top-header .navbar .nav-item .toggle-button {
+        display: block;
+    }
+}
